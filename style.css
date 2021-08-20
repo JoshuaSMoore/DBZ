@@ -1,0 +1,18 @@
+@media(max-width: 900px){
+.background-main{
+    display:none;
+}
+}
+
+@media(max-width: 900px){
+    .please-work{
+        position: relative;
+        margin: 0;
+    }
+}
+
+.please-work{
+    position:absolute;
+    transform: translateY(60px);
+}
+

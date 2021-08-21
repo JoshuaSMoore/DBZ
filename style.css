@@ -4,11 +4,6 @@
 }
 }
 
-@media(max-width: 800px){
-    .please-work{
-        position: relative;
-    }
-}
 
 .big{
     background-color: rgba(17, 116, 161, 0.911);
@@ -20,6 +15,12 @@
     font-family: 'Architects Daughter', cursive;
 }
 
+@media(max-width: 600px){
+    .please-work{
+        position: relative;
+        justify-content: space-around;
+    }
+}
 .dragon-nav{
     background-color: black;
     background-position: cover;

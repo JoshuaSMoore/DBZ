@@ -4,15 +4,67 @@
 }
 }
 
-@media(max-width: 900px){
+@media(max-width: 800px){
     .please-work{
         position: relative;
-        margin: 0;
     }
+}
+
+.big{
+    background-color: rgba(17, 116, 161, 0.911);
 }
 
 .please-work{
     position:absolute;
-    transform: translateY(60px);
+    transform: translateY(50px);
+    font-family: 'Architects Daughter', cursive;
+    column-fill: auto;
 }
 
+.dragon-nav{
+    background-color: black;
+    background-position: cover;
+}
+
+.background-main{
+    background-image: url(https://wallpapercave.com/wp/wp7112576.jpg);
+    background-position: cover;
+    background-position-y: 5%;
+}
+
+.banner-color{
+    color: rgb(243 206 74);
+}
+
+.buy-button{
+    transform: translateX(300px);
+    
+}
+
+.sell{
+    
+    font-family: 'Bebas Neue';
+    transform: translateY(-40px);
+    
+}
+
+.join-button{
+    transform: translateX(70px);
+    
+}
+
+@media(max-width: 800px){
+    .buy-button{
+        transform:translateX(0);
+    }
+}
+
+@media(max-width: 800px){
+    .group-pic{
+        max-width: 300px;
+    }
+}
+
+.group-pic{
+    max-width: 500px;
+}

@@ -7,6 +7,9 @@
     <title>Spirit Bomb</title>
     <link rel="stylesheet" href="/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     
 
     <style>
@@ -26,91 +29,123 @@
         }
       </style>
 </head>
-<body class = debug>
+<body class = "debug big">
     <header class= "sticky-top">
         <!-- Banner -->
-        <nav class="navbar sticky-top navbar-light bg-light">
+        <nav class="navbar sticky-top navbar-light dragon-nav">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Spirit Bomb</a>
+              <a class="navbar-brand text-light" href="#">Spirit Bomb</a>
             </div>
           </nav>
     </header> 
     <main>
         <!-- Card/Background - background + text hidden on mobile -->
         <div class="container-fluid">
-            <div class="row text-center">
-                <div class="col-sm-1"></div>
-                <div class="card" style="width: 12rem;">
+            <div class="row background-main">
+                <div class="col-sm-2 p-3">
+                <div class="card">
                     <div class="card-body">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <form>
+                            <div class=""></div>
+                            <label for="exampleInputPassword1" class="form-label">Name</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                            <label for="exampleInputEmail1" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            <div class=""></div>
+                            </div>
+                            <div class="form-check pb-3">
+                                <input type="checkbox" name="Join">
+                                <label for="Piccolo">Sign up for email notifications!</label><br>
+                                <button type="submit" class="btn btn-primary join-button">Join Now!</button> 
+                            </form>
+                        </div>
                     </div>
-                  </div>
-                <div class="col-sm-9  background-main">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, beatae.</p>
+                    </div>
+                </div>
+                <div class="col-sm-9 text-light">
+                    <div class = "p-5 banner-color">
+                        <h3>DRAGONBALLZ IS THE BEST</h3>
+                        <p> Papoi majin kai tora shinhan bio-broly suno nam tora yajirobe blueberry 18 salza.<br> Roshi froug bebi. Froug ozaru dragon hirudegarm ozaru shugesh mai.</p>
+                    </div>
                 </div>
             </div>     
+        </div>
         </div>
         <div class="container-fluid">
             <!-- Text + card - swap in mobile -->
             <div class="row">
-                <div class="col-sm-5 order-2 order-sm-1">
-                    <h2>Lorem ipsum dolor sit amet.</h2>
+                <div class="col-sm-5 order-2 col-12 order-sm-1">
+                    <h4>Lorem ipsum dolor sit amet.</h4>
+                    <h4>Lorem ipsum dolor sit amet.</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, exercitationem!</p>
                 </div>
-                    <div class="col-sm-7 card order-1 order-sm-2 please-work">
-                        <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio, ut obcaecati velit perspiciatis officiis quidem!.</p>
+                    <!-- <div class="card col-sm-7 order-1 order-sm-2"> -->
+                        <div class="card col-sm-7 col-12 order-1 order-sm-2 please-work">
+                            <div class="card-body">
+                              <h5 class="card-title">Vote for who you think is the best!</h5>
+                        <input type="checkbox" name="Vageta">
+                              <label for="Vageta">Last prince of the Saiyan people, is he good? Is he bad? Nobody knows but the man can throw down.</label><br>
+                        <input type="checkbox" name="Piccolo">
+                              <label for="Piccolo">The spawn of King Piccolo, a green-skinned Namekian who is know for his "Special Beam Cannon" attack.</label><br>
+                        <input type="checkbox" name="Gohan">
+                              <label for="Gohan">Son of Goku, heart of a warrior, the kid who took down Cell. </label><br>
+                        <input type="checkbox" name="Trunks">
+                              <label for="Trunks">Time traveler, son of Vageta, savior of the timeline.</label><br>
+                        <input type="checkbox" name="Goku">
+                              <label for="Goku">Incredible strong, lover of food, and beyond dedicated to defending planet Earth.</label><br>
+                            </div>
                         </div>
-                    </div>
             </div>
             <!-- Image - Logo + text -->
             <div class="row">
-                <div class="col-sm-5 p- text-center logo-line">
-                    <img src="https://via.placeholder.com/250x300" alt="">
+                <div class="col-sm-5 text-center logo-line p-5">
+                        <img class = "group-pic" src="http://www.dragonballz.com/images/landing/boxart-combo.jpg"alt style="">
                 </div>
-                <div class="col-sm-7 p-2">
+                <div class="col-sm-7"> 
+                    <div class = "sell ps-5 fs-5 lh-lg">
                     <h3> <br></br> 
                         <br></br>
                          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-cloud-lightning" viewBox="0 0 16 16">
                             <path d="M13.405 4.027a5.001 5.001 0 0 0-9.499-1.004A3.5 3.5 0 1 0 3.5 10H13a3 3 0 0 0 .405-5.973zM8.5 1a4 4 0 0 1 3.976 3.555.5.5 0 0 0 .5.445H13a2 2 0 0 1 0 4H3.5a2.5 2.5 0 1 1 .605-4.926.5.5 0 0 0 .596-.329A4.002 4.002 0 0 1 8.5 1zM7.053 11.276A.5.5 0 0 1 7.5 11h1a.5.5 0 0 1 .474.658l-.28.842H9.5a.5.5 0 0 1 .39.812l-2 2.5a.5.5 0 0 1-.875-.433L7.36 14H6.5a.5.5 0 0 1-.447-.724l1-2z"/>
                         </svg>
-                        Lorem ipsum dolor sit amet.
+                        DRAGON BALL Z: RESURRECTION 'F'<br>BLU-RAY/DVD COMBO PACK
                     </h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum natus aut laborum nobis nam minima?</p>
-                    <button>Submit</button>
+                        <h4>PACKED WITH EXTRAS</h4>
+                            <p>Feature Film(95 minutes)<br>
+                                Thee Voices of Dragon Ball Z(in-the-booth "making of" footage)<br>
+                                The Return of Dragon Ball Z(cast interviews & red carpet footage)<br>
+                                Digital HD Ultraviolet copy of film</p>
+                        <div>
+                            <button type="button" class="btn btn-danger buy-button">Buy Now!</button>
+                        </div>     
                 </div>
             </div>
         </div>
         <div class="container-fluid">
             <!-- 3 cards - emphasize middle with size + icons/logos -->
-            <div class="row justify-content-center">
-                <div class="col-sm-4 pt-4">
-                    <div class="card" style="width: 18rem;">
+            <div class="row align-items-center">
+                <div class="col-sm-4 order-2 order-sm-1">
+                    <div class="card">
                         <div class="card-body">
                           <h5 class="card-title">Card title</h5>
-                          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique harum labore odio. Accusantium, facilis deleniti?.</p>
+                          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Similique harum labore odio. Accusantium, facilis deleniti?.</p>
                         </div>
                       </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="card" style="width: 20rem; height: 15rem;">
+                <div class="col-sm-4 order-1 order-sm-2">
+                    <div class="card">
                         <div class="card-body">
                           <h5 class="card-title">Card title</h5>
-                          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique harum labore odio. Accusantium, facilis deleniti?.</p>
+                          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br>Similique harum labore odio. Accusantium, facilis deleniti?.</p>
                         </div>
                       </div>
                 </div>
-                <div class="col-sm-4 pt-4">
-                    <div class="card" style="width: 18rem;">
+                <div class="col-sm-4 order-3 order-sm-3">
+                    <div class="card">
                         <div class="card-body">
                           <h5 class="card-title">Card title</h5>
-                          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique harum labore odio. Accusantium, facilis deleniti?.</p>
+                          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Similique harum labore odio. Accusantium, facilis deleniti?.</p>
                         </div>
                       </div>
                 </div>

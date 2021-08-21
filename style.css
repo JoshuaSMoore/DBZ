@@ -1,9 +1,12 @@
+:root{
+    scroll-behavior: smooth;
+  }
+
 @media(max-width: 900px){
 .background-main{
     display:none;
 }
 }
-
 
 .big{
     background-color: rgba(17, 116, 161, 0.911);

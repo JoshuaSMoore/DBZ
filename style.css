@@ -16,9 +16,8 @@
 
 .please-work{
     position:absolute;
-    transform: translateY(50px);
+    transform: translateX(-30px) translateY(50px);
     font-family: 'Architects Daughter', cursive;
-    column-fill: auto;
 }
 
 .dragon-nav{

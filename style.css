@@ -32,7 +32,26 @@
 }
 .dragon-nav{
     background-color: rgba(43, 44, 44, 0.911);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTECLYfpO8GEP2aXlQ9-MMLFaHuCHbEgMtLIA&usqp=CAU);
     background-position: cover;
+    background-repeat: no-repeat;
+    background-position:left;
+    /* background-size:24rem; */
+    /* padding-left: 4rem; */
+
+    
+}
+
+@media(max-width: 600px){
+    .dragon-nav{
+        background-position: center;
+    }
+}
+
+@media(max-width: 600px){
+    .nav-text{
+        padding-left: 4rem;
+    }
 }
 
 .background-main{

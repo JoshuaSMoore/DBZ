@@ -101,3 +101,11 @@
     color: rgba(43, 44, 44, 0.911);
     font-family: 'Bebas Neue';
 }
+
+@media(max-width: 800px){
+    .swap{
+        position: center;
+        padding-left: 4rem
+        ;
+    }
+}

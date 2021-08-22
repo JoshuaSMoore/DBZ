@@ -3,7 +3,7 @@
   }
 
 @media(max-width: 900px){
-.background-main{
+.dis-text{
     display:none;
 }
 }
@@ -76,4 +76,9 @@
 
 .group-pic{
     max-width: 300px;
+}
+
+.dis-text{
+    color: rgba(43, 44, 44, 0.911);
+    font-family: 'Bebas Neue';
 }
